@@ -17,11 +17,10 @@ export class SocialComponent implements OnInit {
       { name: 'keywords', content: 'Angular SEO Integration, On-Demand Rankings, Radius' },
       { name: 'author', content: 'EG' },
 
-      { name: 'og:url', content: "http://google.com" },
-      { name: 'og:title', content: "Social Media Sharing Test" },
-      { name: 'og:type', content: "article" },
-      { name: 'og:description', content: "A test to see if angular univeral works as expected" },
-      { name: 'og:image', content: "https://ssir.org/images/blog/Hollie-Russon-Gilman-civic-engagement-social-distancing-592x333.jpg" },
+      { property: 'og:title', content: "Social Media Sharing Test" },
+      { property: 'og:type', content: "article" },
+      { property: 'og:description', content: "A test to see if angular univeral works as expected" },
+      { property: 'og:image', content: "https://ssir.org/images/blog/Hollie-Russon-Gilman-civic-engagement-social-distancing-592x333.jpg" },
 
       { name: 'twitter:card', content: "summary_large_image" },
       { name: 'twitter:title', content: "Social Media Sharing Test" },
